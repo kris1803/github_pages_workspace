@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Locapic",
+        "stack": [
+            "React Native"
+        ]
+    },
+    {
+        "name": "Bikeshop",
+        "stack": [
+            "Express EJS",
+            "Bootstrap"
+        ]
+    }
+]

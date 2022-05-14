@@ -10,7 +10,7 @@ export default function MyNavbar() {
                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                   <Container>
                      <LinkContainer to='/'>
-                        <Navbar.Brand className="navbar-brand" >Kris1803</Navbar.Brand>
+                        <Navbar.Brand className="navbar-brand" >Kris</Navbar.Brand>
                      </LinkContainer>
                      <Navbar.Toggle
                        aria-controls="responsive-navbar-nav" />

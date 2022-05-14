@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import HardSkills from "./pages/HardSkills";
 import Error from "./pages/Error";
 import Projects from "./pages/Projects";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path='/' exact element={<Home />} />
       <Route path='/hard-skills' element={<HardSkills />} />
       <Route path='/projects' element={<Projects />} />
+      <Route path='/about' element={<About />} />
       <Route path='*' element={<Error />} />
     </Routes>
   );
