@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import { Container } from 'react-bootstrap';
-import styles from '../styles/main.module.css'
+import styles from '../styles/main.module.css';
 
 export default function Home(props) {
    useEffect(() => {

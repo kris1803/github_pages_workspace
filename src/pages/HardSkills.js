@@ -1,9 +1,29 @@
 import Navbar from "./components/Navbar";
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import styles from '../styles/main.module.css';
 
 export default function HardSkills(props) {
 
+    const frontend = [
+        'React (functional components)',
+        'Redux',
+        'React-Bootstrap',
+        'Jquery',
+        'React-Native (Expo)'
+    ];
+    const backend = [
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'Mongoose',
+    ]
+    const production = [
+        'Git & Github',
+        'Github pages',
+        'Heroku',
+        'Kanban Agile',
+        'Raspberry Pi',
+    ]
     /*
         Frontend:
             React (functional components)
@@ -38,11 +58,38 @@ export default function HardSkills(props) {
     */
 
     return (
-        <Container fluid className={'m-0 p-0 min-vh-100 d-flex flex-column '+styles.pagebackground}>
+        <Container fluid className={'m-0 p-0 min-vh-100 d-flex flex-column ' + styles.pagebackground}>
             <Navbar />
-            <Container fluid className="d-flex flex-row justify-content-center align-items-center">
-                <h1>Hard Skills</h1>
-                
+            <Container fluid className="mt-5 p-0 d-flex flex-column justify-content-center align-items-center">
+                <Row className='w-100' >
+                    <Col xs={12} className="text-center mb-3">
+                        <h1>Hard Skills</h1>
+                    </Col>
+                    <Col xs={12} lg={6} className='text-center' >
+                        <h3>Frontend</h3>
+                        {frontend.map((skill, index) => {
+                            return (
+                                <p key={index} className='fw-bold'>{skill}</p>
+                            )
+                        })}
+                    </Col>
+                    <Col xs={12} lg={6} className='text-center' >
+                        <h3>Backend</h3>
+                        {backend.map((skill, index) => {
+                            return (
+                                <p key={index} className='fw-bold'>{skill}</p>
+                            )
+                        })}
+                    </Col>
+                    <Col xs={12} className="text-center mb-3">
+                        <h3>Production</h3>
+                        {production.map((skill, index) => {
+                            return (
+                                <p key={index} className='fw-bold'>{skill}</p>
+                            )
+                        })}
+                    </Col>
+                </Row>
             </Container>
         </Container>
     );
