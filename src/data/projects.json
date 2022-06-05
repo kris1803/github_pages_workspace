@@ -1,7 +1,7 @@
 [
    {
       "name": "Locapic",
-      "lang": "en",
+      "lang": "fr",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
       "description": "Lorem Ipsum",
       "stack": [
@@ -36,6 +36,7 @@
       "description": "MERN stack web application, for your news digests for each day. You can add articles to wishlist, and open them later. Authorization with signin/signup. Passwords are in plain text, because it's only for testing. Bcrypt is easy to implement.\n The React frontend is in reactapp/ . (not production build).\n Before starting:\n   - Put your newsapi api key in reactapp/src/ScreenSource.js , reactapp/src/ScreenArticlesBySource.js\n   - Put your mongodb connection link in models/bdd.js\n   - Do npm 'install' and 'npm start'",
       "stack": [
          "React",
+         "Redux",
          "REST api",
          "Express",
          "MongoDB"

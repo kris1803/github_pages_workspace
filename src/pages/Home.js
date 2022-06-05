@@ -18,7 +18,7 @@ export default function Home(props) {
             <h3>Javascript Fullstack Software Engineer</h3>
             <h3>Web & mobile</h3>
             <h5>React & React Native</h5>
-            <h4>Focus on backend Node.js applications and servers.</h4>
+            <h4>Focus on frontend applications.</h4>
          </Container>
       </Container>
    );
