@@ -9,7 +9,7 @@ export default function SeeProject(props) {
    let params = useParams();
    let projectCount = projects.length;
    let id = parseInt(params.id)-1;
-   if (id > projectCount || id < 0) {
+   if (id > projectCount || id < 0 || isNaN(id) ) {
       return (<Error />)
    }
    let project = projects[id];
@@ -18,7 +18,7 @@ export default function SeeProject(props) {
    return (
       <Container fluid className={'m-0 p-0 min-vh-100 d-flex flex-column ' + styles.pagebackground} >
          <MyNavbar />
-         <Container fluid style={{ flex:1 }} className="d-flex flex-column align-items-center p-0 m-0">
+         <Container fluid style={{ flex:1 }} className="d-flex flex-column align-items-center justify-content-center mt-3 p-0 m-0">
             <h1>Seeproject page</h1>
             {JSON.stringify(project)}
          </Container>

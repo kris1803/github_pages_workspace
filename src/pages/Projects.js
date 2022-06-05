@@ -1,8 +1,9 @@
-import { useEffect } from "react";
-import { Container, Card, Col, Row } from 'react-bootstrap';
+import React, { useEffect } from "react";
+import { Container, Card, Col, Row, Button } from 'react-bootstrap';
 import Navbar from "./components/Navbar";
 import styles from '../styles/main.module.css'
 import projects from '../data/projects.json';
+import { Link } from "react-router-dom";
 
 export default function Projects(props) {
 
@@ -16,7 +17,10 @@ export default function Projects(props) {
                </div>
                <Card.Body>
                   <Card.Title>{project.name}</Card.Title>
-                  <Card.Text>{description}</Card.Text>
+                  <Card.Text>{description}<p><span className="fw-bold">Language:</span> {project.lang}</p></Card.Text>
+                  <Link to={'/project/'+(index+1)}>
+                     <Button variant="outline-success" >Open</Button>
+                  </Link>
                </Card.Body>
             </Card>
          </Col>
@@ -33,11 +37,10 @@ export default function Projects(props) {
          <Navbar />
          <Container fluid className="text-center pt-5 m-0 p-0 d-flex flex-column align-items-center" style={{ flex: 1 }}>
             <h1>Projects</h1>
-            <h6>Portfolio accessible at: <a href='https://github.com/kris1803/portfolio' target='_blank' rel="noreferrer"  >Github</a></h6>
-
-            <Row className="w-100 justify-content-center">
-               <Col xs={12} md={10} lg={8} >
-                  <Row className="w-100">
+            <h6>Portfolio accessible at: <a href='https://github.com/kris1803' target='_blank' rel="noreferrer"  >Github</a></h6>
+            <Row className="m-0 p-0 mt-3 justify-content-center">
+               <Col xs={12} md={10} lg={10} xl={9} >
+                  <Row className="m-0 p-0">
                      {projectComponents}
                   </Row>
                </Col>

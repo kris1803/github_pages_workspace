@@ -11,6 +11,9 @@ export default function About(props) {
             <h1>
                About me
             </h1>
+
+
+            <p className="mt-5">Icons used from <a href="https://icons8.com">https://icons8.com</a> to make this website</p>
          </Container>
       </Container >
    )
