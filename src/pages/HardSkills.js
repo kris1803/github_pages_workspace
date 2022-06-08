@@ -21,6 +21,8 @@ export default function HardSkills(props) {
         'Git & Github',
         'Github pages',
         'Heroku',
+        'Netlify',
+        'Vercel',
         'Kanban Agile',
         'Raspberry Pi',
     ]
