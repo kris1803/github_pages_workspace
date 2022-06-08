@@ -18,7 +18,8 @@ export default function Projects() {
                   </div>
                   <Card.Body>
                      <Card.Title>{project.name}</Card.Title>
-                     <Card.Text>{description}<p><span className="fw-bold">Language:</span> {project.lang}</p></Card.Text>
+                     <Card.Text className="m-0 p-0" >{description}</Card.Text>
+                     <Card.Text ><span className="fw-bold">Language:</span> {project.lang}</Card.Text>
                      <Link to={'/project/'+(index+1)}>
                         <Button variant="outline-success" >Open</Button>
                      </Link>
