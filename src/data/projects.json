@@ -2,7 +2,7 @@
    {
       "name": "Locapic",
       "lang": "fr",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "img": "/img/projects/locapic.png",
       "description": "Lorem Ipsum",
       "stack": [
          "React Native (Expo)",
@@ -13,7 +13,7 @@
    {
       "name": "Bikeshop",
       "lang": "en",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "img": "/img/projects/bikeshop.png",
       "description": "Bike shop with cart and checkout project for testing purposes\n Using payment system api: Stripe.\n To start project: - put your stripe api key in routes/index.js file - do npm install - do npm start\n Shopping cart editing Mostly back-end project on NodeJS with express-generator with EJS",
       "stack": [
          "Express EJS",
@@ -23,7 +23,7 @@
    {
       "name": "myMoviz",
       "lang": "fr",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "img": "/img/projects/mymoviz.png",
       "description": "Application en MERN stack, pour voir les films actuels au cinéma et pourvoir les ajouter à la wishlist de son compte personnel. Frontend situé dans le répertoire reactapp.\n Affichage des derniers films sortis en cinéma.\n Possibilité d'ajout de films en wishlist, et possibilité de noter les films. Utilisation de l'api the movie DB.\n ! Pensez à mettre votre clé d'api dans le fichiers routes/index.js. ! Pensez à mettre un lien de connexion mongodb dans models/bdd.js\n Démarrer le backend en premier, puis le frontend situé dans reactapp/ dans un autre terminal.\n Pensez à faire npm install et npm start dans le frontend et le backend.",
       "stack": [
          "React"
@@ -32,7 +32,7 @@
    {
       "name": "morningNews",
       "lang": "fr",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "img": "/img/projects/morningnews.png",
       "description": "MERN stack web application, for your news digests for each day. You can add articles to wishlist, and open them later. Authorization with signin/signup. Passwords are in plain text, because it's only for testing. Bcrypt is easy to implement.\n The React frontend is in reactapp/ . (not production build).\n Before starting:\n   - Put your newsapi api key in reactapp/src/ScreenSource.js , reactapp/src/ScreenArticlesBySource.js\n   - Put your mongodb connection link in models/bdd.js\n   - Do npm 'install' and 'npm start'",
       "stack": [
          "React",
@@ -45,7 +45,7 @@
    {
       "name": "weatherApp",
       "lang": "en",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "img": "/img/projects/weatherapp.png",
       "description": "WeatherApp in MEN stack.\n Authorization : Signup, Signin. Saved in mongoDb.\n Application to see minimal and maximum temperature by city, and weather description.\n Adding/Removing cities to favorites. Markers on map where are selected cities. Cities are saved to mongoDb, so they are persistent. Refresh button to refresh data for cities. Weather route is protected. Using Bootstrap 5.\n To start: - put your OpenWeatherMap api key in routes/index.js - put your connection link to mongodb in ./models/connection.js file. - npm install - npm start",
       "stack": [
          "Bootstrap 5",

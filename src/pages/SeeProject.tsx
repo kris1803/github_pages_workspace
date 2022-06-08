@@ -8,6 +8,9 @@ import Error from './Error';
 export default function SeeProject(props) {
    let params = useParams();
    let projectCount = projects.length;
+   if (!params.id) {
+      return <Error />;
+   }
    let id = parseInt(params.id)-1;
    if (id > projectCount || id < 0 || isNaN(id) ) {
       return (<Error />)

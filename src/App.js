@@ -6,7 +6,7 @@ import HardSkills from "./pages/HardSkills";
 import Error from "./pages/Error";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
-import SeeProject from './pages/SeeProject';
+import SeeProject from './pages/SeeProject.tsx';
 
 function App() {
   return (
