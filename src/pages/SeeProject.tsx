@@ -5,7 +5,7 @@ import MyNavbar from "./components/Navbar";
 import projects from '../data/projects.json';
 import Error from './Error';
 
-export default function SeeProject() {
+export default function SeeProject(): JSX.Element {
    let params = useParams();
    let projectCount :number = projects.length;
    if (!params.id) {

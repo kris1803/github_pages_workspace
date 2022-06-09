@@ -11,7 +11,7 @@ export default function About(props) {
             <h1>
                About me
             </h1>
-
+            <p>Knowing 4 languages (French, English, Latvian, russian), I can create and deploy your frontend application or website.</p>
 
             <p className="mt-5">Icons used from <a href="https://icons8.com">https://icons8.com</a> to make this website</p>
          </Container>

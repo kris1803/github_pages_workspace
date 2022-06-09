@@ -35,7 +35,7 @@ export default function Projects() {
          <Navbar />
          <Container fluid className="text-center pt-5 m-0 p-0 d-flex flex-column align-items-center" style={{ flex: 1 }}>
             <h1>Projects</h1>
-            <h6>Portfolio accessible at: <a href='https://github.com/kris1803' target='_blank' rel="noreferrer"  >Github</a></h6>
+            <h5>Portfolio accessible at: <a href='https://github.com/kris1803' target='_blank' rel="noreferrer"  >Github</a></h5>
             <Row className="m-0 p-0 mt-3 justify-content-center">
                <Col xs={12} md={10} lg={10} xl={9} >
                   <Row className="m-0 p-0 justify-content-center">

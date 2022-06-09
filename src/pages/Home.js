@@ -12,7 +12,7 @@ export default function Home(props) {
    return (
       <Container fluid className={'m-0 p-0 min-vh-100 d-flex flex-column '+styles.pagebackground} >
          <Navbar />
-         <Container fluid style={{ flex:1 }} className="d-flex flex-column align-items-center p-0 m-0">
+         <Container fluid style={{ flex:1 }} className="d-flex flex-column align-items-center p-0 m-0 text-center">
             <h1 className="mt-5">Home</h1>
             <h2>Kristians</h2>
             <h3>Javascript Fullstack Software Engineer</h3>
