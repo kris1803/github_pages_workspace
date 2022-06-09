@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "plugins": [
+            {
+                "name": "typescript-plugin-css-modules"
+            }
+        ],
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "esnext",
+        "esModuleInterop": true
+    }
+}

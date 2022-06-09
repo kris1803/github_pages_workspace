@@ -20,7 +20,8 @@
          "Dynamic Views",
          "Webservice API (Stripe)",
          "Bootstrap"
-      ]
+      ],
+      "codeLink":"https://github.com/kris1803/portfolio/tree/main/bikeshop"
    },
    {
       "name": "myMoviz",
@@ -44,7 +45,8 @@
          "REST api",
          "Express",
          "MongoDB"
-      ]
+      ],
+      "codeLink":""
    },
    {
       "name": "weatherApp",
@@ -54,6 +56,7 @@
       "stack": [
          "Bootstrap 5",
          "OpenWeatherMap API"
-      ]
+      ],
+      "codeLink": "https://github.com/kris1803/portfolio/tree/main/weatherapp"
    }
 ]
