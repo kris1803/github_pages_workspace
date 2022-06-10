@@ -14,7 +14,7 @@ export default function Projects() {
             <Col xs={12} sm={6} md={4} xl={3} key={index}>
                <Card className="mb-3">
                   <div className="ratio ratio-16x9">
-                     <Card.Img variant="top" src={project.img} alt='project screenshot' />
+                     <Card.Img variant="top" src={project.img} alt='project screenshot' /> 
                   </div>
                   <Card.Body>
                      <Card.Title>{project.name}</Card.Title>
@@ -33,7 +33,7 @@ export default function Projects() {
    return (
       <Container fluid className={'m-0 p-0 min-vh-100 d-flex flex-column ' + styles.pagebackground} >
          <Navbar />
-         <Container fluid className="text-center pt-5 m-0 p-0 d-flex flex-column align-items-center" style={{ flex: 1 }}>
+         <Container as={'main'} fluid className="text-center pt-5 m-0 p-0 d-flex flex-column align-items-center" style={{ flex: 1 }}>
             <h1>Projects</h1>
             <h5>Portfolio accessible at: <a href='https://github.com/kris1803' target='_blank' rel="noreferrer"  >Github</a></h5>
             <Row className="m-0 p-0 mt-3 justify-content-center">

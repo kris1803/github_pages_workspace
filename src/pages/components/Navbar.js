@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function MyNavbar() {
    return (
-      <Container fluid>
+      <Container fluid as={'header'}>
          <Row className="justify-content-center bg-dark shadow">
             <Col xs={12} lg={8} >
                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
